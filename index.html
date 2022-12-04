@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aidana Raushan</title>
+  <link rel="shortcut icon" href="./images/nu.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+
+            <img src="./images/my-avatar-1.png" alt="Aidana Raushan" width="80">
+
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aidana Raushan">Aidana Raushan</h1>
+
+          <p class="title">4th Year PSIR Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <div class="icon">
+            <img src="./images/chevron-down.svg" alt="down">
+          </div>
+
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <div class="icon">
+                <img src="./images/mail.svg" alt="mail">
+              </div>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="" class="contact-link">aidana.raushan@nu.edu.kz</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <div class="icon">
+                <img src="./images/flag-alt.svg" alt="flag">
+              </div>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Astana, Kazakhstan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+      <ul  class="navbar-list">
+      <li class="navbar-item">
+         <a href="index.html" class="navbar-link" data-nav-link>About</a></li>
+       <li class="navbar-item">
+         <a href="pages/resume.html" class="navbar-link" data-nav-link>Resume</a></li>
+       <li class="navbar-item">
+         <a href="pages/courses.html" class="navbar-link" data-nav-link>Courses Taken</a></li>
+      </ul>
+    </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a 4th year Political Sсience and International Relations student
+            at Nazarbayev University, Astana, Kazakhstan.
+            I enjoy studying studying languages, social sciences, and history subjects.
+          </p>
+
+          <p>
+            I am also interested in photography, mostly nature and voluteering. For my future job,
+            I would like to deal with something creative, yet where I can develop my hard skills.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+          <li class="service-item">
+
+     <div class="service-icon-box">
+       <img src="./images/icon-quote.svg" alt="Quote Icon" width="40">
+     </div>
+
+     <div class="service-content-box">
+       <h4 class="h4 service-item-title">Languages</h4>
+
+       <p class="service-item-text">
+         Learning my 4th and 5th language.
+         I am passionate about learning the world through languages.
+       </p>
+     </div>
+
+   </li>
+
+   <li class="service-item">
+
+     <div class="service-icon-box">
+       <img src="./images/icon-photo.svg" alt="photography icon" width="40">
+     </div>
+
+     <div class="service-content-box">
+       <h4 class="h4 service-item-title">Photography</h4>
+
+       <p class="service-item-text">
+         I am passionate about making nature photographies.
+         I am now learning editing.
+       </p>
+     </div>
+
+   </li>
+    </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">My Recent Photography Works:</h3>
+
+          <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="./images/IMG_0642.jpeg" class="center" style="width:60%">
+      <div class="text">Medeu, Almaty</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="./images/IMG_8555.jpeg" class="center" style="width:60%">
+      <div class="text">Sunflowers, Almaty oblast</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="./images/IMG_8652.jpeg" class="center" style="width:60%">
+      <div class="text">During rain, Almaty</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
